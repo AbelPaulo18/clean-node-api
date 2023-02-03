@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "clean-node-api",
   "version": "1.0.0",
   "main": "index.js",
@@ -24,6 +25,7 @@
   },
   "author": "AbelPaulo18 <abelpaulo.2218@gmail.com>",
   "scripts": {
+    "prepare": "husky install",
     "test": "jest",
     "test:staged": "jest --passWithNoTests"
   }
