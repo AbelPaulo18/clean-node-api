@@ -25,6 +25,6 @@
   "author": "AbelPaulo18 <abelpaulo.2218@gmail.com>",
   "scripts": {
     "test": "jest",
-    "test:staged": "jest"
+    "test:staged": "jest --passWithNoTests"
   }
 }
