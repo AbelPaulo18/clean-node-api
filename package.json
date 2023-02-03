@@ -26,7 +26,7 @@
   "author": "AbelPaulo18 <abelpaulo.2218@gmail.com>",
   "scripts": {
     "prepare": "husky install",
-    "test": "jest",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   }
 }
