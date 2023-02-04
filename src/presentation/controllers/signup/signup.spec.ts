@@ -244,9 +244,9 @@ describe("SignUp Controller", () => {
     const httpResponse = sut.handle(httpRequest);
     expect(httpResponse.statusCode).toBe(200);
     expect(httpResponse.body).toEqual({
-      id: "validId",
+      id: "valid-id",
       name: "valid-name",
-      email: "valid-email@mail.com",
+      email: "valid-email@email.com",
       password: "valid-password",
     });
   });
