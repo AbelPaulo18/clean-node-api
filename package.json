@@ -26,7 +26,11 @@
   "author": "AbelPaulo18 <abelpaulo.2218@gmail.com>",
   "scripts": {
     "prepare": "husky install",
-    "test": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test:unit": "yarn test --watch -c jest-unit-config.ts",
+    "test:integration": "yarn test --watch -c jest-integration-config.ts",
+    "test:staged": "yarn test --findRelatedTest",
+    "test:ci": "yarn test --coverage"
   }
 }
