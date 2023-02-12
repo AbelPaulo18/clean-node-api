@@ -1,5 +1,6 @@
 import { expect, jest } from "@jest/globals";
-import { Encrypter } from "../../protocols/encrypter";
+
+import { Encrypter } from "./db-add-account-protocols";
 import { DbAddAccount } from "./db-add-account";
 
 interface SutTypes {
