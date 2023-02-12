@@ -1,7 +1,7 @@
 import { expect } from "@jest/globals";
 import validator from "validator";
 
-import { EmailValidatorAdapter } from "./email-validator";
+import { EmailValidatorAdapter } from "./email-validator-adapter";
 
 const makeSut = (): EmailValidatorAdapter => {
   return new EmailValidatorAdapter();
