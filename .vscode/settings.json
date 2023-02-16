@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Encrypter"]
+  "cSpell.words": ["Encrypter"],
+  "conventionalCommits.scopes": ["test-fail"]
 }
